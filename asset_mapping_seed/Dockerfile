@@ -1,5 +1,5 @@
 # You don't need to modify the following 
-FROM mongo:5
+FROM mongo:5.0
 
 WORKDIR /var/dmongo
 COPY profile_asset.json /var/dmongo
